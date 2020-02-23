@@ -1,3 +1,45 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
 #container {
     background-color: black;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+#details {
+    background-image: url("../bg-img.jpg");
+    background-position: right;
+    background-size: cover;
+    height: 680px;
+}
+
+#header {
+    top: 70px;
+    left: 25px;
+}
+
+h1 {
+    font-size: 120px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+.letter-spacing-2 {
+    letter-spacing: 2px;
+}
+
+.letter-spacing-1 {
+    letter-spacing: 1px;
+}
+
+#social-links {
+    top: 40px;
+    right: 10px;
 }
