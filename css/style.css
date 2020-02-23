@@ -12,19 +12,20 @@ body {
 }
 
 #details {
-    background-image: url("../bg-img.jpg");
-    background-position: right;
-    background-size: cover;
+    background-image: url("../4771648.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
     height: 680px;
 }
 
 #header {
-    top: 70px;
+    top: 190px;
     left: 25px;
 }
 
 h1 {
-    font-size: 120px;
+    font-size: 100px;
 }
 
 h4 {
@@ -40,6 +41,74 @@ h4 {
 }
 
 #social-links {
-    top: 40px;
+    top: 70px;
     right: 10px;
+    width: 40px;
+}
+
+@media only screen and (max-width: 992px){
+    h1 {
+        font-size: 80px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    #header {
+        top: 110px;
+    }
+
+    #social-links ul {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #details {
+        background-image: url("../4771648.jpg");
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 680px;
+    }
+
+    #social-links {
+        top: 450px;
+        right: 200px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    h1 {
+        font-size: 52px;
+    }
+
+    h4 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #header {
+        top: 60px;
+        left: 10px;
+    }
+
+    #details {
+        background-image: url("../4771648.jpg");
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 680px;
+    }
+
+    #social-links {
+        width: 200px;
+        top: 450px;
+        right: 213px;
+    }
+
+    #shop {
+        margin-left: 120px;
+    }
 }
