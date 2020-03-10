@@ -45,7 +45,7 @@ body {
 
   main > div:nth-child(2) {
     height: 400px;
-    top: 550px;
+    top: 600px;
   }
 
   h1 {
@@ -60,8 +60,12 @@ body {
     text-align: center;
   }
 
+  #shop {
+    height: 60px;
+  }
+
   #social-links {
-    top: 180px;
+    top: 1100px;
   }
 }
 
