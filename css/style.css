@@ -22,13 +22,17 @@ body {
   letter-spacing: 1px;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (min-width: 320px) {
   #content {
     min-height: 600px;
   }
 
   #header {
     height: 190px;
+  }
+
+  #details {
+    object-fit: containR;
   }
 
   h1 {
@@ -62,22 +66,49 @@ body {
   }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  #details {
-    background-image: url("../4771648.jpg");
-    background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;
-    height: 680px;
+@media only screen and (min-width: 768px) {
+  #content {
+    min-height: 1024px;
+  }
+
+  #header {
+    height: 220px;
+  }
+
+  h1 {
+    font-size: 80px !important;
+    white-space: nowrap;
+    text-align: center;
+    font-weight: 800;
+  }
+
+  h4 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  #header {
+    top: 300px;
+    left: 0;
+    height: 250px;
   }
 
   #social-links {
-    top: 450px;
-    right: 200px;
+    top: 600px;
+    left: 0;
+  }
+
+  #shop {
+    margin-left: 120px;
+  }
+
+  footer > div > p {
+      font-size: 10px;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) {
   h1 {
     font-size: 80px;
   }
@@ -95,25 +126,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  h1 {
-    font-size: 80px;
-  }
-
-  h4 {
-    font-size: 25px;
-  }
-
-  #header {
-    top: 110px;
-  }
-
-  #social-links ul {
-    width: 400px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   h1 {
     font-size: 80px;
   }
