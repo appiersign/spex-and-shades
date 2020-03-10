@@ -10,7 +10,7 @@ body {
 
 #details {
   object-fit: contain;
-  height: 746px;
+  min-height: 500px;
 }
 
 .letter-spacing-2 {
@@ -21,13 +21,11 @@ body {
   letter-spacing: 1px;
 }
 
-#social-links {
-  top: 70px;
-  right: 10px;
-  width: 40px;
-}
-
 @media only screen and (max-width: 575px) {
+  #content {
+    min-height: 600px;
+  }
+
   #header {
     height: 190px;
   }
@@ -42,14 +40,13 @@ body {
   }
 
   #header {
-    top: 140px;
+    top: 250px;
     left: 0;
   }
 
   #social-links {
-    width: 200px;
     top: 450px;
-    right: 213px;
+    left: 0;
   }
 
   #shop {
