@@ -52,6 +52,10 @@ body {
   #shop {
     margin-left: 120px;
   }
+
+  footer > p {
+      font-size: 10px;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
