@@ -61,6 +61,59 @@ body {
     margin-left: 120px;
   }
 
+  footer {
+    margin-top: 100px;
+  }
+
+  footer > div > p {
+      font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  #content {
+    min-height: 600px;
+  }
+
+  #header {
+    height: 220px;
+  }
+
+  #details {
+    object-fit: contain;
+  }
+
+  h1 {
+    font-size: 60px !important;
+    white-space: nowrap;
+    text-align: center;
+    font-weight: 800;
+  }
+
+  h4 {
+    font-size: 24px;
+    text-align: center;
+    font-stretch: 300;
+  }
+
+  #header {
+    top: 300px;
+    left: 0;
+  }
+
+  #social-links {
+    top: 600px;
+    left: 0;
+  }
+
+  #shop {
+    margin-left: 120px;
+  }
+
+  footer {
+    margin-top: 200px !important;
+  }
+
   footer > div > p {
       font-size: 10px;
   }
