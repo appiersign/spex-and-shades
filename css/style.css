@@ -33,10 +33,12 @@ body {
   h1 {
     font-size: 38px !important;
     white-space: nowrap;
+    text-align: center;
   }
 
   h4 {
     font-size: 16px;
+    text-align: center;
   }
 
   #header {
@@ -53,7 +55,7 @@ body {
     margin-left: 120px;
   }
 
-  footer > p {
+  footer > div > p {
       font-size: 10px;
   }
 }
