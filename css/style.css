@@ -121,39 +121,47 @@ body {
 
 @media only screen and (min-width: 768px) {
   #content {
-    min-height: 1024px;
+    min-height: 600px;
   }
 
   #header {
     height: 220px;
   }
 
+  #details {
+    object-fit: contain;
+  }
+
   h1 {
-    font-size: 80px !important;
+    font-size: 5.5em !important;
     white-space: nowrap;
     text-align: center;
     font-weight: 800;
   }
 
   h4 {
-    font-size: 22px;
+    font-size: 1.8em;
     text-align: center;
-    font-weight: 300;
+    font-stretch: 300;
   }
 
   #header {
-    top: 300px;
+    top: 350px;
     left: 0;
     height: 250px;
   }
 
   #social-links {
-    top: 600px;
+    top: 650px;
     left: 0;
   }
 
   #shop {
     margin-left: 120px;
+  }
+
+  footer {
+    margin-top: 200px !important;
   }
 
   footer > div > p {
